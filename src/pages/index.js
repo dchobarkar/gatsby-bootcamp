@@ -1,18 +1,18 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from 'react'
+import { Link } from 'gatsby'
 
-import Layout from "../components/layout";
+import Layout from '../components/layout'
 
 const IndexPage = () => {
-  return (
-    <Layout>
-      <h1>Hello.</h1>
+    return (
+        <Layout>
+    <h1>Hello.</h1>
       <h2>I'm Darshan, a full-stack developer living in beautiful Pune.</h2>
       <p>
         Need a developer? <Link to="/contact">Contact me.</Link>
       </p>
-    </Layout>
-  );
-};
+</Layout>
+    )
+}
 
-export default IndexPage;
+export default IndexPage
